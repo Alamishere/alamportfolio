@@ -1,0 +1,13 @@
+{
+  "lex": {
+    "v2": true,
+    "botId": "LO0YNARSFE",
+    "botAliasId": "EINIONHOJI",
+    "botLocaleId": "en_US",
+    "region": "us-east-1"
+  },
+  "cognito": {
+    "poolId": "us-east-1:3b0f0fd7-4096-4c82-86ea-a27b795f3f6b",
+    "region": "us-east-1"
+  }
+}
