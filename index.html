@@ -1894,6 +1894,21 @@
             }
         }
     </style>
+    <script>
+  var loaderOpts = {
+    baseUrl: "https://main.d3f5p8u76cie4b.amplifyapp.com", // your chatbot Amplify URL
+    shouldLoadMinDeps: true
+  };
+
+  var loaderScript = document.createElement('script');
+  loaderScript.src = loaderOpts.baseUrl + '/lex-web-ui-loader.min.js';
+  loaderScript.async = true;
+  loaderScript.onload = function () {
+    window.loadLexWebUi(loaderOpts);
+  };
+
+  document.head.appendChild(loaderScript);
+</script>
 </body>
 
 </html>
